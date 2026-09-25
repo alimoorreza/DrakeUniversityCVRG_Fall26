@@ -4,7 +4,6 @@
 ## Week#3
 - [SAM 3 python notebook for experiments](https://github.com/alimoorreza/DrakeUniversityCVRG_Fall26/blob/main/sam.ipynb)
   - SAM 3 provides image segmentation with the given labels. While it can group a set of pixels into a homogeneous region remarkably well, and also can assign names or semantic labels to those regions.
-- [sample images from Sidewalk dataset]()
 
 
 ## Week#2

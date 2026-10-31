@@ -1,6 +1,12 @@
 # Drake University CVRG (Fall26)
 ## outline of weekly research meeting notes
 
+## Week#8 (October 30th, 2026)
+- Discussed the integration of SAM3 and Grounded-SAM masks with Chike and Minerva. Both will independently created their own mappings of objects for which SAM3 or Grounded-SAM works best. Both willtake the union of these two dictionaries, where the keys will be object names and the values will indicate SAM3, Grounded-SAM, or both.
+- Franklin tried optical-flow based label transfer. good job
+- Blaise joined. Explained him the two sub-projects
+
+
 ## Week#7 (October 23th, 2026)
 - Discussed the integration of SAM3 and Grounded-SAM masks with Chike and Minerva. Both will independently create their own mappings of objects for which SAM3 or Grounded-SAM works best. We will then take the union of these two dictionaries, where the keys will be object names and the values will indicate SAM3, Grounded-SAM, or both.
 

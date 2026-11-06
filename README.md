@@ -14,6 +14,8 @@
 - Franklin tried optical-flow-based label transfer. Good job!
 - Blaise joined the group. Explained the two sub-projects to him.
 
+![Segment Annotator](https://github.com/alimoorreza/DrakeUniversityCVRG_Fall26/blob/main/figures/label_propagator.png)
+
 ## Week#7 (October 23th, 2026)
 - Discussed the integration of SAM3 and Grounded-SAM masks with Chike and Minerva. Both will independently create their own mappings of objects for which SAM3 or Grounded-SAM works best. We will then take the union of these two dictionaries, where the keys will be object names and the values will indicate SAM3, Grounded-SAM, or both.
 

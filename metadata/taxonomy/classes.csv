@@ -1,0 +1,102 @@
+class_id,class_name,example
+0,Other things,"Rare countable foreground objects not assigned to another retained class. These objects appear less frequently and include strollers, vending machines, and similar isolated objects. Examples merged from the previous union list: Hose."
+1,Other stuff,"Rare uncountable background, material, or surface regions not assigned to another retained class."
+2,Building,Buildings and building structure; fire escapes are treated as part of the building rather than a separate class.
+3,Storefront,The visible shopfront or commercial frontage of a building.
+4,Shed / Stall / Booth / Kiosk,"Shed, traffic shed, dining shed, pedestrian shed, stall, booth, kiosk, hut-like or shade structures placed in or near roads, sidewalks, and walkways."
+5,Bridge,"Bridge structure or crossing route, including pedestrian and roadway bridges."
+6,Wall,Solid wall structures and Retaining Wall; kept separate from fence.
+7,Pillar,"Structural pillar, column, or freestanding vertical support."
+8,Fence,"Fence, chain-link fence, construction fence, metal fence, rail fence, field fence, wooden fence, and temporary fence."
+9,Gate,Regular and Iron gates.
+10,Railing,"Railing, handrail, guard rail, metal railing, waterfront railing, curved railing, glass railing, wood railing, and tree guard."
+11,Road barrier,"Solid road or street barriers, including water-filled, plastic, concrete, and temporary barriers; excludes open railings."
+12,Barrier post,"Barrier post, bollard, barrier stump, and similar fixed or temporary vertical access-control post."
+13,Turnstile,"Turnstile, fare gate, or rotating access-control barrier."
+14,Entrance surface,"Extended walkable surface connecting a sidewalk to a building, restaurant, hospital, store, or other entrance."
+15,Raised Entryway,Entrance or threshold surface raised above the adjoining sidewalk or floor.
+16,Doorway,"Door opening, doorway, and its immediate threshold area."
+17,Flush Door,Door whose face is approximately flush with the surrounding wall or entrance surface.
+18,Stairs,"Stairs, steps, and stone stairs."
+19,Elevator,"Elevator car, elevator entrance, or elevator doors."
+20,Escalator,Escalator or moving staircase.
+21,Moving Walk,Moving walkway or travelator.
+22,Floor,"Indoor floor surface, including floors inside structures and subway entrances."
+23,Sidewalk,"Dedicated pedestrian sidewalk surface, including Closed Sidewalk, Sidewalk Pits, Unpaved Sidewalk."
+24,Other walkable surface,"Other retained walkable paved surfaces, including playable park paving, sidewalk ventilation grates or subway vents, pedestrian bridges, stair landings or turns, and railed decks. Examples merged from the previous union list: Accent Paving, Brick Paving."
+25,Paved trail,"Paved path or trail extending from a house, apartment, office, or park toward a sidewalk or road; excludes unpaved trails."
+26,Unpaved trail,"Unpaved path, park or woodland trail, hiking trail, and other natural-surface trail."
+27,Boardwalk,Boardwalk walking surface.
+28,Pier walkway,Walkable surface on a pier.
+29,Cobblestone pavement,"Cobblestone paving or pavement, including raised cobblestone surfaces between roads."
+30,Truncated dome,"Truncated-dome tactile warning or detectable-warning surface, including panels occurring at curb ramps."
+31,Road,"Roadway surface used primarily by vehicles. Also includes: Gutter, Intersection, Road Shoulder, Unpaved Road."
+32,Service lane,Service lane or access lane distinct from the main road.
+33,Bike lane,Designated bicycle lane.
+34,Driveway,"Flat or sloped driveway or vehicle entrance that meets the road. Includes: Driveway (flat), Sloped Driveway."
+35,Crosswalk,"Pedestrian crossing markings, including a plain or zebra crosswalk. Also includes: Pedestrian Crossing, Uncontrolled Crossing."
+36,Curb,"Curb, stone curbing, border-stone curbing, and edge-stone curbing."
+37,Curb ramp,"Curb ramp, including parallel, perpendicular, and diagonal curb ramps and depressed corners; excludes truncated-dome tactile panels."
+38,Pedestrian refuge island,Pedestrian refuge or pedestrian safety island intended as a stopping or transition point while crossing.
+39,Traffic island,Traffic island or median island that is not a pedestrian refuge island.
+40,Parking,"Parking lot, parking area, parking bay, and roadside parking area."
+41,Boarding area,Designated passenger boarding area at a transport stop or station.
+42,Bus Stop,"Bus-stop sign, shelter, or designated stopping and waiting area."
+43,Train Platform,"Passenger platform beside train, tram, or metro tracks."
+44,Train Tracks,"Railway, tram, or metro rails and track bed."
+45,Vegetation,"Vegetation, tree, palm, flower, bushes, and overhanging tree branches; overhanging branches are not retained as a separate class."
+46,Tree pit,Tree pits or tree wells surrounding a planted street or sidewalk tree.
+47,Planter,Movable large flower-vase-like planters and immovable brick or built-in planters along sidewalks and pier walkways.
+48,Grass,"Grass patches, tufts, and grassy areas that are not represented as a maintained lawn."
+49,Grass lawn,Continuous maintained lawn or turf area.
+50,Fallen leaves,Accumulated or ground-covering fallen leaves.
+51,Trash,"Loose trash, litter, bags, or debris located on a road or pedestrian route. Also includes Yard Waste (Leaves, branches, grass clippings, or other landscaping waste placed on or beside a travel path)"
+52,Trash Bins,"Trash, recycling, compost, or waste receptacles."
+53,Sports field,"Sports fields and courts, including basketball, tennis, hockey, soccer, cricket, and baseball playing areas; the playing field within a stadium."
+54,Running track,Running track or field track surrounding or associated with a sports field.
+55,Goal post,Goal posts and goal frames used on sports fields.
+56,Bleachers,Bleachers and tiered spectator seating at fields or courts.
+57,Water body,Natural or constructed body of water.
+58,Fountain,"Decorative, drinking, or public water-fountain structure."
+59,Puddle,Localized standing-water puddle.
+60,Wet surface,Wet ground or pavement surface without a distinct standing-water puddle.
+61,Water Pipes,"Exposed, surface-mounted, or path-adjacent water pipes."
+62,Ice / Snow,Ice and snow merged into one class.
+63,Person,"All people, including people with disabilities and people using mobility or navigation aids. A mobility aid, such as a wheelchair, may receive its own class when applicable."
+64,Dog,"Dog, including a dog used as a guide animal."
+65,Bird,Bird.
+66,Horse,Horse.
+67,Wheelchair,Wheelchair; kept separate from the vehicle classes.
+68,White Cane,White mobility cane used by a blind or low-vision traveler.
+69,Car,"Car, including parked car."
+70,Truck,Truck.
+71,Bus,Bus.
+72,Van,"Van, minivan, passenger van, cargo van, and similar enclosed road vehicle."
+73,Motorcycle,Motorcycle.
+74,Bicycle,Bicycle.
+75,Caravan,Caravan or travel trailer designed for habitation.
+76,Trailer,Non-caravan trailer towed by another vehicle.
+77,On-rails,"On-rails vehicle, including tram and train."
+78,Maintenance Vehicle,"Vehicle used for road, sidewalk, utility, landscaping, or facility maintenance."
+79,Paratransit Vehicle,Vehicle providing accessible or demand-responsive transportation services.
+80,Fire Truck,"Fire truck, fire engine, and other emergency firefighting vehicle."
+81,Bench,"Bench and bench variants, including park benches."
+82,Chair,Chair and other single-person movable seating.
+83,Table,"Table, including dining, vendor, park, and temporary tables."
+84,Counter,"Service, reception, retail, or vendor counter."
+85,Bike rack,"Bicycle rack, bike rack, bicycle stand, and fixed parking structure used to park or secure bicycles."
+86,Mailbox,"Street-side, building-mounted, or freestanding mailbox."
+87,Fire hydrant,Fire hydrant located beside or within a pedestrian route.
+88,Utility access cover,"Manhole cover, utility cover, and utility access panel embedded in or adjacent to a walking surface."
+89,Sign,"Non-traffic sign that is not a fold-out or A-frame sign, including fixed restaurant, dog-prohibited, and storefront signs."
+90,Foldout sign,"Freestanding fold-out or A-frame sign, including restaurant, dog-prohibited, and storefront uses when presented in that physical form."
+91,Traffic sign (front),"Front face of a traffic sign, including roadworks-ahead, right-ahead, keep-left, lorries-prohibited, speed-limit, and yield signs; stop signs use the Stop sign class."
+92,Traffic sign (back),Back side of a traffic sign.
+93,Stop sign,Stop sign.
+94,Traffic Signals,Vehicle or pedestrian traffic-signal heads and illuminated signal indications.
+95,Push Button,"Pedestrian crossing, door-control, elevator, or other accessibility-related push button."
+96,Traffic cone,Traffic or construction cone.
+97,Traffic barrel,Traffic or construction barrel/drum.
+98,Pole,Generic pole that is neither a light pole nor a utility pole.
+99,Light pole,Light pole or lamp post.
+100,Utility pole,Utility pole carrying utility infrastructure.

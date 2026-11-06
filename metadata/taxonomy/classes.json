@@ -1,0 +1,507 @@
+[
+  {
+    "class_id": 0,
+    "class_name": "Other things",
+    "example": "Rare countable foreground objects not assigned to another retained class. These objects appear less frequently and include strollers, vending machines, and similar isolated objects. Examples merged from the previous union list: Hose."
+  },
+  {
+    "class_id": 1,
+    "class_name": "Other stuff",
+    "example": "Rare uncountable background, material, or surface regions not assigned to another retained class."
+  },
+  {
+    "class_id": 2,
+    "class_name": "Building",
+    "example": "Buildings and building structure; fire escapes are treated as part of the building rather than a separate class."
+  },
+  {
+    "class_id": 3,
+    "class_name": "Storefront",
+    "example": "The visible shopfront or commercial frontage of a building."
+  },
+  {
+    "class_id": 4,
+    "class_name": "Shed / Stall / Booth / Kiosk",
+    "example": "Shed, traffic shed, dining shed, pedestrian shed, stall, booth, kiosk, hut-like or shade structures placed in or near roads, sidewalks, and walkways."
+  },
+  {
+    "class_id": 5,
+    "class_name": "Bridge",
+    "example": "Bridge structure or crossing route, including pedestrian and roadway bridges."
+  },
+  {
+    "class_id": 6,
+    "class_name": "Wall",
+    "example": "Solid wall structures and Retaining Wall; kept separate from fence."
+  },
+  {
+    "class_id": 7,
+    "class_name": "Pillar",
+    "example": "Structural pillar, column, or freestanding vertical support."
+  },
+  {
+    "class_id": 8,
+    "class_name": "Fence",
+    "example": "Fence, chain-link fence, construction fence, metal fence, rail fence, field fence, wooden fence, and temporary fence."
+  },
+  {
+    "class_id": 9,
+    "class_name": "Gate",
+    "example": "Regular and Iron gates."
+  },
+  {
+    "class_id": 10,
+    "class_name": "Railing",
+    "example": "Railing, handrail, guard rail, metal railing, waterfront railing, curved railing, glass railing, wood railing, and tree guard."
+  },
+  {
+    "class_id": 11,
+    "class_name": "Road barrier",
+    "example": "Solid road or street barriers, including water-filled, plastic, concrete, and temporary barriers; excludes open railings."
+  },
+  {
+    "class_id": 12,
+    "class_name": "Barrier post",
+    "example": "Barrier post, bollard, barrier stump, and similar fixed or temporary vertical access-control post."
+  },
+  {
+    "class_id": 13,
+    "class_name": "Turnstile",
+    "example": "Turnstile, fare gate, or rotating access-control barrier."
+  },
+  {
+    "class_id": 14,
+    "class_name": "Entrance surface",
+    "example": "Extended walkable surface connecting a sidewalk to a building, restaurant, hospital, store, or other entrance."
+  },
+  {
+    "class_id": 15,
+    "class_name": "Raised Entryway",
+    "example": "Entrance or threshold surface raised above the adjoining sidewalk or floor."
+  },
+  {
+    "class_id": 16,
+    "class_name": "Doorway",
+    "example": "Door opening, doorway, and its immediate threshold area."
+  },
+  {
+    "class_id": 17,
+    "class_name": "Flush Door",
+    "example": "Door whose face is approximately flush with the surrounding wall or entrance surface."
+  },
+  {
+    "class_id": 18,
+    "class_name": "Stairs",
+    "example": "Stairs, steps, and stone stairs."
+  },
+  {
+    "class_id": 19,
+    "class_name": "Elevator",
+    "example": "Elevator car, elevator entrance, or elevator doors."
+  },
+  {
+    "class_id": 20,
+    "class_name": "Escalator",
+    "example": "Escalator or moving staircase."
+  },
+  {
+    "class_id": 21,
+    "class_name": "Moving Walk",
+    "example": "Moving walkway or travelator."
+  },
+  {
+    "class_id": 22,
+    "class_name": "Floor",
+    "example": "Indoor floor surface, including floors inside structures and subway entrances."
+  },
+  {
+    "class_id": 23,
+    "class_name": "Sidewalk",
+    "example": "Dedicated pedestrian sidewalk surface, including Closed Sidewalk, Sidewalk Pits, Unpaved Sidewalk."
+  },
+  {
+    "class_id": 24,
+    "class_name": "Other walkable surface",
+    "example": "Other retained walkable paved surfaces, including playable park paving, sidewalk ventilation grates or subway vents, pedestrian bridges, stair landings or turns, and railed decks. Examples merged from the previous union list: Accent Paving, Brick Paving."
+  },
+  {
+    "class_id": 25,
+    "class_name": "Paved trail",
+    "example": "Paved path or trail extending from a house, apartment, office, or park toward a sidewalk or road; excludes unpaved trails."
+  },
+  {
+    "class_id": 26,
+    "class_name": "Unpaved trail",
+    "example": "Unpaved path, park or woodland trail, hiking trail, and other natural-surface trail."
+  },
+  {
+    "class_id": 27,
+    "class_name": "Boardwalk",
+    "example": "Boardwalk walking surface."
+  },
+  {
+    "class_id": 28,
+    "class_name": "Pier walkway",
+    "example": "Walkable surface on a pier."
+  },
+  {
+    "class_id": 29,
+    "class_name": "Cobblestone pavement",
+    "example": "Cobblestone paving or pavement, including raised cobblestone surfaces between roads."
+  },
+  {
+    "class_id": 30,
+    "class_name": "Truncated dome",
+    "example": "Truncated-dome tactile warning or detectable-warning surface, including panels occurring at curb ramps."
+  },
+  {
+    "class_id": 31,
+    "class_name": "Road",
+    "example": "Roadway surface used primarily by vehicles. Also includes: Gutter, Intersection, Road Shoulder, Unpaved Road."
+  },
+  {
+    "class_id": 32,
+    "class_name": "Service lane",
+    "example": "Service lane or access lane distinct from the main road."
+  },
+  {
+    "class_id": 33,
+    "class_name": "Bike lane",
+    "example": "Designated bicycle lane."
+  },
+  {
+    "class_id": 34,
+    "class_name": "Driveway",
+    "example": "Flat or sloped driveway or vehicle entrance that meets the road. Includes: Driveway (flat), Sloped Driveway."
+  },
+  {
+    "class_id": 35,
+    "class_name": "Crosswalk",
+    "example": "Pedestrian crossing markings, including a plain or zebra crosswalk. Also includes: Pedestrian Crossing, Uncontrolled Crossing."
+  },
+  {
+    "class_id": 36,
+    "class_name": "Curb",
+    "example": "Curb, stone curbing, border-stone curbing, and edge-stone curbing."
+  },
+  {
+    "class_id": 37,
+    "class_name": "Curb ramp",
+    "example": "Curb ramp, including parallel, perpendicular, and diagonal curb ramps and depressed corners; excludes truncated-dome tactile panels."
+  },
+  {
+    "class_id": 38,
+    "class_name": "Pedestrian refuge island",
+    "example": "Pedestrian refuge or pedestrian safety island intended as a stopping or transition point while crossing."
+  },
+  {
+    "class_id": 39,
+    "class_name": "Traffic island",
+    "example": "Traffic island or median island that is not a pedestrian refuge island."
+  },
+  {
+    "class_id": 40,
+    "class_name": "Parking",
+    "example": "Parking lot, parking area, parking bay, and roadside parking area."
+  },
+  {
+    "class_id": 41,
+    "class_name": "Boarding area",
+    "example": "Designated passenger boarding area at a transport stop or station."
+  },
+  {
+    "class_id": 42,
+    "class_name": "Bus Stop",
+    "example": "Bus-stop sign, shelter, or designated stopping and waiting area."
+  },
+  {
+    "class_id": 43,
+    "class_name": "Train Platform",
+    "example": "Passenger platform beside train, tram, or metro tracks."
+  },
+  {
+    "class_id": 44,
+    "class_name": "Train Tracks",
+    "example": "Railway, tram, or metro rails and track bed."
+  },
+  {
+    "class_id": 45,
+    "class_name": "Vegetation",
+    "example": "Vegetation, tree, palm, flower, bushes, and overhanging tree branches; overhanging branches are not retained as a separate class."
+  },
+  {
+    "class_id": 46,
+    "class_name": "Tree pit",
+    "example": "Tree pits or tree wells surrounding a planted street or sidewalk tree."
+  },
+  {
+    "class_id": 47,
+    "class_name": "Planter",
+    "example": "Movable large flower-vase-like planters and immovable brick or built-in planters along sidewalks and pier walkways."
+  },
+  {
+    "class_id": 48,
+    "class_name": "Grass",
+    "example": "Grass patches, tufts, and grassy areas that are not represented as a maintained lawn."
+  },
+  {
+    "class_id": 49,
+    "class_name": "Grass lawn",
+    "example": "Continuous maintained lawn or turf area."
+  },
+  {
+    "class_id": 50,
+    "class_name": "Fallen leaves",
+    "example": "Accumulated or ground-covering fallen leaves."
+  },
+  {
+    "class_id": 51,
+    "class_name": "Trash",
+    "example": "Loose trash, litter, bags, or debris located on a road or pedestrian route. Also includes Yard Waste (Leaves, branches, grass clippings, or other landscaping waste placed on or beside a travel path)"
+  },
+  {
+    "class_id": 52,
+    "class_name": "Trash Bins",
+    "example": "Trash, recycling, compost, or waste receptacles."
+  },
+  {
+    "class_id": 53,
+    "class_name": "Sports field",
+    "example": "Sports fields and courts, including basketball, tennis, hockey, soccer, cricket, and baseball playing areas; the playing field within a stadium."
+  },
+  {
+    "class_id": 54,
+    "class_name": "Running track",
+    "example": "Running track or field track surrounding or associated with a sports field."
+  },
+  {
+    "class_id": 55,
+    "class_name": "Goal post",
+    "example": "Goal posts and goal frames used on sports fields."
+  },
+  {
+    "class_id": 56,
+    "class_name": "Bleachers",
+    "example": "Bleachers and tiered spectator seating at fields or courts."
+  },
+  {
+    "class_id": 57,
+    "class_name": "Water body",
+    "example": "Natural or constructed body of water."
+  },
+  {
+    "class_id": 58,
+    "class_name": "Fountain",
+    "example": "Decorative, drinking, or public water-fountain structure."
+  },
+  {
+    "class_id": 59,
+    "class_name": "Puddle",
+    "example": "Localized standing-water puddle."
+  },
+  {
+    "class_id": 60,
+    "class_name": "Wet surface",
+    "example": "Wet ground or pavement surface without a distinct standing-water puddle."
+  },
+  {
+    "class_id": 61,
+    "class_name": "Water Pipes",
+    "example": "Exposed, surface-mounted, or path-adjacent water pipes."
+  },
+  {
+    "class_id": 62,
+    "class_name": "Ice / Snow",
+    "example": "Ice and snow merged into one class."
+  },
+  {
+    "class_id": 63,
+    "class_name": "Person",
+    "example": "All people, including people with disabilities and people using mobility or navigation aids. A mobility aid, such as a wheelchair, may receive its own class when applicable."
+  },
+  {
+    "class_id": 64,
+    "class_name": "Dog",
+    "example": "Dog, including a dog used as a guide animal."
+  },
+  {
+    "class_id": 65,
+    "class_name": "Bird",
+    "example": "Bird."
+  },
+  {
+    "class_id": 66,
+    "class_name": "Horse",
+    "example": "Horse."
+  },
+  {
+    "class_id": 67,
+    "class_name": "Wheelchair",
+    "example": "Wheelchair; kept separate from the vehicle classes."
+  },
+  {
+    "class_id": 68,
+    "class_name": "White Cane",
+    "example": "White mobility cane used by a blind or low-vision traveler."
+  },
+  {
+    "class_id": 69,
+    "class_name": "Car",
+    "example": "Car, including parked car."
+  },
+  {
+    "class_id": 70,
+    "class_name": "Truck",
+    "example": "Truck."
+  },
+  {
+    "class_id": 71,
+    "class_name": "Bus",
+    "example": "Bus."
+  },
+  {
+    "class_id": 72,
+    "class_name": "Van",
+    "example": "Van, minivan, passenger van, cargo van, and similar enclosed road vehicle."
+  },
+  {
+    "class_id": 73,
+    "class_name": "Motorcycle",
+    "example": "Motorcycle."
+  },
+  {
+    "class_id": 74,
+    "class_name": "Bicycle",
+    "example": "Bicycle."
+  },
+  {
+    "class_id": 75,
+    "class_name": "Caravan",
+    "example": "Caravan or travel trailer designed for habitation."
+  },
+  {
+    "class_id": 76,
+    "class_name": "Trailer",
+    "example": "Non-caravan trailer towed by another vehicle."
+  },
+  {
+    "class_id": 77,
+    "class_name": "On-rails",
+    "example": "On-rails vehicle, including tram and train."
+  },
+  {
+    "class_id": 78,
+    "class_name": "Maintenance Vehicle",
+    "example": "Vehicle used for road, sidewalk, utility, landscaping, or facility maintenance."
+  },
+  {
+    "class_id": 79,
+    "class_name": "Paratransit Vehicle",
+    "example": "Vehicle providing accessible or demand-responsive transportation services."
+  },
+  {
+    "class_id": 80,
+    "class_name": "Fire Truck",
+    "example": "Fire truck, fire engine, and other emergency firefighting vehicle."
+  },
+  {
+    "class_id": 81,
+    "class_name": "Bench",
+    "example": "Bench and bench variants, including park benches."
+  },
+  {
+    "class_id": 82,
+    "class_name": "Chair",
+    "example": "Chair and other single-person movable seating."
+  },
+  {
+    "class_id": 83,
+    "class_name": "Table",
+    "example": "Table, including dining, vendor, park, and temporary tables."
+  },
+  {
+    "class_id": 84,
+    "class_name": "Counter",
+    "example": "Service, reception, retail, or vendor counter."
+  },
+  {
+    "class_id": 85,
+    "class_name": "Bike rack",
+    "example": "Bicycle rack, bike rack, bicycle stand, and fixed parking structure used to park or secure bicycles."
+  },
+  {
+    "class_id": 86,
+    "class_name": "Mailbox",
+    "example": "Street-side, building-mounted, or freestanding mailbox."
+  },
+  {
+    "class_id": 87,
+    "class_name": "Fire hydrant",
+    "example": "Fire hydrant located beside or within a pedestrian route."
+  },
+  {
+    "class_id": 88,
+    "class_name": "Utility access cover",
+    "example": "Manhole cover, utility cover, and utility access panel embedded in or adjacent to a walking surface."
+  },
+  {
+    "class_id": 89,
+    "class_name": "Sign",
+    "example": "Non-traffic sign that is not a fold-out or A-frame sign, including fixed restaurant, dog-prohibited, and storefront signs."
+  },
+  {
+    "class_id": 90,
+    "class_name": "Foldout sign",
+    "example": "Freestanding fold-out or A-frame sign, including restaurant, dog-prohibited, and storefront uses when presented in that physical form."
+  },
+  {
+    "class_id": 91,
+    "class_name": "Traffic sign (front)",
+    "example": "Front face of a traffic sign, including roadworks-ahead, right-ahead, keep-left, lorries-prohibited, speed-limit, and yield signs; stop signs use the Stop sign class."
+  },
+  {
+    "class_id": 92,
+    "class_name": "Traffic sign (back)",
+    "example": "Back side of a traffic sign."
+  },
+  {
+    "class_id": 93,
+    "class_name": "Stop sign",
+    "example": "Stop sign."
+  },
+  {
+    "class_id": 94,
+    "class_name": "Traffic Signals",
+    "example": "Vehicle or pedestrian traffic-signal heads and illuminated signal indications."
+  },
+  {
+    "class_id": 95,
+    "class_name": "Push Button",
+    "example": "Pedestrian crossing, door-control, elevator, or other accessibility-related push button."
+  },
+  {
+    "class_id": 96,
+    "class_name": "Traffic cone",
+    "example": "Traffic or construction cone."
+  },
+  {
+    "class_id": 97,
+    "class_name": "Traffic barrel",
+    "example": "Traffic or construction barrel/drum."
+  },
+  {
+    "class_id": 98,
+    "class_name": "Pole",
+    "example": "Generic pole that is neither a light pole nor a utility pole."
+  },
+  {
+    "class_id": 99,
+    "class_name": "Light pole",
+    "example": "Light pole or lamp post."
+  },
+  {
+    "class_id": 100,
+    "class_name": "Utility pole",
+    "example": "Utility pole carrying utility infrastructure."
+  }
+]

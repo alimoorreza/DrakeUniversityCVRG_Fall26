@@ -7,7 +7,7 @@
 - Blaise tried computing optical flow on a pair of adjacent images.
 - Imran uploaded the .JSON file containing our finalized label dictionary with 101 objects.
 
-![Segment Annotator](https://github.com/alimoorreza/CS181-Fall26-Notebook-3/blob/main/etc/uws_v1_samples.png)
+![Segment Annotator](https://github.com/alimoorreza/DrakeUniversityCVRG_Fall26/blob/main/figures/segment_annotator.png)
   
 ## Week#8 (October 30th, 2026)
 - Discussed the integration of SAM3 and Grounded-SAM masks with Chike and Minerva. Both will independently create their own mappings of objects for which SAM3 or Grounded-SAM works best. They will then take the union of these two dictionaries, where the keys will be object names and the values will indicate SAM3, Grounded-SAM, or both.

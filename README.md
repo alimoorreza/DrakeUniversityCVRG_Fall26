@@ -1,5 +1,13 @@
 # Drake University CVRG (Fall26)
 ## outline of weekly research meeting notes
+## Week#10 (November 13th, 2026)
+- Chike demonstrated his integration of SAM3 and Grounded-SAM masks. He also measured the percentage coverage of pixels by his initial human-selected-objects based integration. Minverva was absent due to Music competition. Chike and I also discussed several other heuristics that he can experiment with and compare. I also suggested a Naive Bayes-based approach that would estimate the probability of a particular object being present given the presence of several other objects. For example:
+(P(x_k = \text{road} \mid x_1 = \text{building}, x_2 = \text{car}, \ldots, x_{k-1} = \text{pole})). The idea is to leverage the co-occurrence relationships between different objects to predict the likelihood of another object being present.
+- Had a discussion with Blaise. Franlin was absent. The idea is for Blaise to implement forward-only propagation while you implement backward-only propagation. I would like to investigate how each direction of propagation works independently.
+
+## Week#10 (November 13th, 2026)
+- Chike demonstrated his integration of SAM3 and Grounded-SAM masks. He also measured the percentage coverage of pixels by his initial human-selected-objects based integration. Minverva was absent due to Math competition.
+- Franklin explained his method and Blaise watched it.
 
 ## Week#9 (November 6th, 2026)
 - Chike and Minerva spent time integrating SAM3 and Grounded-SAM masks. They will compute the fraction of pixels covered by the integration of SAM3 and Grounded-SAM.
